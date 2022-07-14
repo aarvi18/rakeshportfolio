@@ -1,0 +1,21 @@
+:root {
+   --mainColor: #0a73a3;
+   --hoverColor: #5bacdf;
+   --backgroundColor: #f1f8fc;
+   --black: #000000;
+   --darkTwo: #45424b;
+   --lightOne: #919191;
+   --lightTwo: #aaa;
+   --mob-nav: #044563;
+}
+
+.div-center {
+    max-width: 81rem;
+    margin: auto;
+}
+
+
+
+
+
+
