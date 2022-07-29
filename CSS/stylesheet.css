@@ -531,6 +531,45 @@ label {
 
 }
 
+#hackathon .hackathon-sec .ineuron , .microsoft {
+    width: 10rem;
+}
+
+#hackathon .hackathon-logo-sec {
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    
+}
+#hackathon .hackathon-logo-sec img {
+    justify-content: space-between;
+    margin: auto;
+  
+   
+
+}
+
+@keyframes scrolling {
+    0% { transform: translateX(0);}
+    100% { transform: translateX(calc(-1*20vw*9));}
+}
+
+#hackathon  .hackathon-image {
+    /* background-color: var(--black); */
+    display: flex;
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+}
+#hackathon  .hackathon-image img{
+    justify-content: space-between;
+    margin: 5rem auto;
+    width: 20rem;
+    padding: 15px;
+    animation: scrolling 50s linear infinite;
+
+}
+
 #contact .gt-main {
     max-width: 81rem;
     margin: 5rem auto;

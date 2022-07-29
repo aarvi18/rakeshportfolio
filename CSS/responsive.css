@@ -100,6 +100,11 @@
     .mob-nav-bar{
         visibility: visible;
     }
+
+    #hackathon  .hackathon-image img{
+        animation: scrolling 15s linear infinite;
+    
+    }
    
 
 }
