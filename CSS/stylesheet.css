@@ -413,6 +413,10 @@ label {
     background-color: var(--mainColor);
 }
 
+.box .skills-cnt .java {
+    width: 85%;
+}
+
 .box .skills-cnt .html {
     width: 90%;
 }
@@ -441,11 +445,11 @@ label {
     width: 50%;
 }
 
-.box .skills-cnt .php {
+.box .skills-cnt .mongo {
     width: 60%;
 }
 
-.box .skills-cnt .fbase {
+.box .skills-cnt .git {
     width: 80%;
 }
 
@@ -541,12 +545,11 @@ label {
     width: 100%;
     
 }
+
 #hackathon .hackathon-logo-sec img {
-    justify-content: space-between;
+    /* justify-content: center; */
     margin: auto;
   
-   
-
 }
 
 @keyframes scrolling {
@@ -564,7 +567,7 @@ label {
 #hackathon  .hackathon-image img{
     justify-content: space-between;
     margin: 5rem auto;
-    width: 20rem;
+    width: 15rem;
     padding: 15px;
     animation: scrolling 50s linear infinite;
 
