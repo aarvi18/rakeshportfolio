@@ -26,6 +26,8 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="./IMAGE/profile-pic2.jpg">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Rakesh | Portfolio</title>
 </head>
 
@@ -57,7 +59,7 @@
 
         <div class="header-sec div-center">
 
-            <div class="sub-header1">
+            <div class="sub-header1" data-aos="fade-up">
 
                 <h2>Hi, I am Rakesh </h2>
 
@@ -86,7 +88,7 @@
 
             </div>
 
-            <div class="sub-header2">
+            <div class="sub-header2" data-aos="fade-up">
                 <img src="./IMAGE/title-pic-1.svg" alt="Developer">
             </div>
 
@@ -146,22 +148,23 @@
 
         <div class="main-about-cnt div-center">
 
-            <div class="image-cnt">
+            <div class="image-cnt" data-aos="fade-up" data-aos-duration="2000">
                 <img src="./IMAGE/profile-pic2.jpg" alt="Developer-Rakesh_Kumar">
             </div>
 
-            <div class="info-cnt">
+            <div class="info-cnt" data-aos="fade-up" data-aos-duration="2000">
                 <h3>Rakesh Kumar</h3>
-                <p>Software Engineer</p>
+                <p>DCA Club Head</p>
             </div>
 
-            <div class="about-me-cnt">
+            <div class="about-me-cnt" data-aos="zoom-in" data-aos-duration="3000">
                 <p>Hello! My full name is <span>Rakesh Kumar Verma</span> and people call me aarvi affectionately ,
                     also known as <a href="https://www.instagram.com/rakesh_aarvi/">@rakesh_aarvi</a> on Instagram. And
                     I am currently persuing my COMPUTER
                     SCIENCE & ENGINEERING at <a href="https://www.acharya.ac.in/">Acharya Institute of Technology</a>,
-                    Bangalore. <br> <br>
-                    Although this is end of my second year in the course but i have been learning how to code for more
+                    Bangalore. And currently coding club head of DCA <a href="https://www.instagram.com/dca.ait/"
+                        target="_blank">@dca.ait</a> <br> <br>
+                    Although this is end of my third year in the course but i have been learning how to code for more
                     than six years from now. Through my experience in software development, I've had the opportunity to
                     work with senior developers, talented teams, and innovative startups that shaped my skillset and
                     raised my standards for what expected of any software developer. I love to code things from scratch
@@ -186,10 +189,10 @@
         </div>
 
         <div class="skill-cnt">
-            <div class="skill-img">
+            <div class="skill-img" data-aos="fade-up" data-aos-duration="3000">
                 <img src="./IMAGE/skill.svg" alt="Skill Image">
             </div>
-            <div class="skill-para">
+            <div class="skill-para" data-aos="fade-up" data-aos-duration="3000">
                 <p>
                     Nobody literally nobody becomes good in something without hardwork and efforts. So,
                     I learnt how to code in school when i was in 8th standered, I have been coding from
@@ -208,7 +211,7 @@
             </div>
         </div>
 
-        <div class="skill">
+        <div class="skill" data-aos="fade-up" data-aos-duration="3000">
 
             <div class="box">
 
@@ -333,7 +336,14 @@
 
         <div class="proj-cnt">
 
-            <div class="proj-card">
+            <div class="proj-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img src="./IMAGE/Moon.svg" alt="Project-1">
+                <span>Impulse Chat App</span>
+                <p>It is Node.JS and Socket.io based project where you can chat with your friends.</p>
+                <button class="btn-1" onclick="window.open('http://impulse-chat-app.herokuapp.com/')">View Project</button>
+            </div>
+
+            <div class="proj-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="./IMAGE/Moon.svg" alt="Project-1">
                 <span>Weather App</span>
                 <p>API based current weather information over the world.</p>
@@ -341,7 +351,7 @@
                     Project</button>
             </div>
 
-            <div class="proj-card">
+            <div class="proj-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="./IMAGE/Moon.svg" alt="Project-1">
                 <span>Calander</span>
                 <p>JAVASCRIPT & CSS based calander which shows you current date</p>
@@ -349,7 +359,7 @@
                     Project</button>
             </div>
 
-            <div class="proj-card">
+            <div class="proj-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="./IMAGE/Moon.svg" alt="Project-1">
                 <span>CLOCK</span>
                 <p>JAVASCRIPT & CSS based clock </p>
@@ -364,10 +374,11 @@
 
         <div class="proj-cnt">
 
-            <div class="proj-card">
+            <div class="proj-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="./IMAGE/Moon.svg" alt="Project-1">
                 <span>Web Service</span>
-                <p>This is totally react js and fireBase based project! which is used for the Acharya Coding Club to aware students via online</p>
+                <p>This is totally react js and fireBase based project! which is used for the Acharya Coding Club to
+                    aware students via online</p>
                 <button class="btn-1" onclick="workingProject()">Please Wait</button>
                 <p style="text-align: center;" id="demo"></p>
             </div>
@@ -429,7 +440,7 @@
             <h1>- Contact -</h1>
         </div>
 
-        <div class="gt-main">
+        <div class="gt-main" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
             <div class="get-touch">
                 <h1>Get in touch</h1>
                 <p>I live in Banglore, India as i am doing my bachelors there. But I am from Patna, Bihar. Anyway, if
@@ -487,6 +498,11 @@
     </footer>
 
     <script src="./js.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
