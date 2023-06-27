@@ -82,3 +82,14 @@ function workingProject() {
 function popup() {
   alert('Oops :( I am working on this');
 }
+
+function downloadPDF() {
+  var link = document.createElement('a');
+  link.href = 'https://drive.google.com/file/d/1TewIfMNvhn0sSYvu1K-wor9oKglK5I1_/view?usp=sharing';
+  link.download = 'downloaded_file.pdf';
+  link.target = '_blank';
+  link.style.display = 'none';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
