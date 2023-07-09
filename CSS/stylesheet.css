@@ -542,7 +542,7 @@ label {
 
 }
 
-@keyframes scrolling {
+/* @keyframes scrolling {
     0% {
         transform: translateX(0);
     }
@@ -550,7 +550,7 @@ label {
     100% {
         transform: translateX(calc(-1*20vw*9));
     }
-}
+} */
 
 #hackathon .hackathon-image {
     /* background-color: var(--black); */
