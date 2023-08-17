@@ -4,11 +4,15 @@ Welcome to the README file for my personal portfolio website! This document will
 # Introduction
 This portfolio website showcases my projects, skills, and experience in a visually appealing and user-friendly manner. It serves as a central hub for anyone interested in learning more about me and my work.
 
-# Features
-Project Showcase: Browse through a collection of my completed projects with detailed descriptions, images, and links to live demos or repositories.
-About Me: Learn about my background, skills, and professional journey.
-Contact: Get in touch with me easily using the contact form or through provided social media links.
-Responsive Design: The website is designed to be responsive and accessible across various devices, ensuring a seamless browsing experience.
+## Features
+
+- **Project Showcase:** Browse through a collection of my completed projects with detailed descriptions, images, and links to live demos or repositories.
+
+- **About Me:** Learn about my background, skills, and professional journey.
+
+- **Contact:** Get in touch with me easily using the contact form or through provided social media links.
+
+- **Responsive Design:** The website is designed to be responsive and accessible across various devices, ensuring a seamless browsing experience.
 
 # Usage
 Feel free to explore the website to learn more about me, view my projects, and contact me if you have any inquiries or opportunities.
