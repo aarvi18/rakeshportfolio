@@ -467,8 +467,8 @@ label {
 
 .proj-card {
     margin: 50px 20px;
-    max-width: 15rem;
-    height: 18rem;
+    max-width: 18rem;
+    height: 20rem;
     background-color: var(--backgroundColor);
     display: flex;
     flex-direction: column;
