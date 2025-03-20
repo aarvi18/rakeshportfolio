@@ -105,6 +105,21 @@
         animation: scrolling 15s linear infinite;
     
     }
+
+    .skill-imgs {
+        width: 80%;
+        gap: 8px;
+        /* Reduce gap for better alignment */
+    }
+    
+    .skill-imgs img {
+        flex: 1 1 calc(15% - 2px);
+        /* Slightly smaller width */
+        max-width: calc(15% - 2px);
+        /* Ensures 8 images per row with smaller size */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
    
 
 }
